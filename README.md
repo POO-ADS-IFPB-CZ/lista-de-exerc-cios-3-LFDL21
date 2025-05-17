@@ -1,1 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/T2vUNN1h)
+Questão 04 - 
+
+A) No caso de arrays de tipos primitivos, a memória é alocada de forma contígua, ou seja, os valores são armazenados diretamente nas posições do array que a gente cria, e cada posição já recebe automaticamente um valor padrão (como 0 para int, 0.0 para double). Já no caso de arrays de objetos, a memória alocada inicialmente guarda apenas referências, e cada posição do array começa com o valor null, ou seja, vazio. Os objetos em si precisam ser criados separadamente com o operador new, sendo armazenados na heap.
+
+B)Quando a gente acessaa elementos de um array de objetos, é necessário ter cuidado para não acessar posições que contenham null, pois isso causaria um erro em tempo de execução. Também é importante garantir que cada objeto foi instanciado antes de seu uso. Assim como em arrays de primitivos, é preciso evitar acessar posições fora do limite do array.
